@@ -9,7 +9,7 @@ import { isPlatformBrowser } from '@angular/common';
   selector: 'app-home',
   standalone: true,
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit, AfterViewInit {
   activeSection: string = 'home';
