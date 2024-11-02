@@ -16,14 +16,13 @@ import { SkillsComponent } from './components/skills/skills.component';
     ContactComponent,
     EducationComponent,
     ExperienceComponent,
-
+    HomeComponent,
     ProjectsComponent,
     SkillsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeComponent
 ],
   providers: [],
   bootstrap: [AppComponent]
